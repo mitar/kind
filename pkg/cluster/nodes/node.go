@@ -31,8 +31,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/version"
 
-	"sigs.k8s.io/kind/pkg/docker"
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/docker"
+	"github.com/mitar/kind/pkg/exec"
 )
 
 // Node represents a handle to a kind node

@@ -20,7 +20,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/pkg/build/base"
+	"github.com/mitar/kind/pkg/build/base"
 )
 
 type flagpole struct {

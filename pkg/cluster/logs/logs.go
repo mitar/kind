@@ -22,9 +22,9 @@ import (
 	"strings"
 	"sync"
 
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	"sigs.k8s.io/kind/pkg/exec"
-	"sigs.k8s.io/kind/pkg/util"
+	"github.com/mitar/kind/pkg/cluster/nodes"
+	"github.com/mitar/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/util"
 )
 
 type errFn func() error

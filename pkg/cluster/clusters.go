@@ -19,7 +19,7 @@ package cluster
 import (
 	"github.com/pkg/errors"
 
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
+	"github.com/mitar/kind/pkg/cluster/nodes"
 )
 
 // List returns a list of clusters for which node containers exist

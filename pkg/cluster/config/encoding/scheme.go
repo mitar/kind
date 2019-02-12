@@ -25,9 +25,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 
-	"sigs.k8s.io/kind/pkg/cluster/config"
-	"sigs.k8s.io/kind/pkg/cluster/config/v1alpha1"
-	"sigs.k8s.io/kind/pkg/cluster/config/v1alpha2"
+	"github.com/mitar/kind/pkg/cluster/config"
+	"github.com/mitar/kind/pkg/cluster/config/v1alpha1"
+	"github.com/mitar/kind/pkg/cluster/config/v1alpha2"
 )
 
 // Scheme is the runtime.Scheme to which all `kind` config API versions and types are registered.

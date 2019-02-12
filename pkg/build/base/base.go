@@ -23,9 +23,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/kind/pkg/build/base/sources"
-	"sigs.k8s.io/kind/pkg/exec"
-	"sigs.k8s.io/kind/pkg/fs"
+	"github.com/mitar/kind/pkg/build/base/sources"
+	"github.com/mitar/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/fs"
 )
 
 // DefaultImage is the default name:tag of the built base image

@@ -19,7 +19,7 @@ package docker
 import (
 	"strings"
 
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/exec"
 )
 
 // UsernsRemap checks if userns-remap is enabled in dockerd

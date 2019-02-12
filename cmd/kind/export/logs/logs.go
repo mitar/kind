@@ -23,8 +23,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/pkg/cluster"
-	"sigs.k8s.io/kind/pkg/fs"
+	"github.com/mitar/kind/pkg/cluster"
+	"github.com/mitar/kind/pkg/fs"
 )
 
 type flagpole struct {

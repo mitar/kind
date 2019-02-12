@@ -19,7 +19,7 @@ package config
 import (
 	"testing"
 
-	"sigs.k8s.io/kind/pkg/util"
+	"github.com/mitar/kind/pkg/util"
 )
 
 // TODO(fabriziopandini): ideally this should use scheme.Default, but this creates a circular dependency

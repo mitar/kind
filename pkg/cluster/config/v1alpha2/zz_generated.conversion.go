@@ -25,8 +25,8 @@ import (
 
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	config "sigs.k8s.io/kind/pkg/cluster/config"
-	kustomize "sigs.k8s.io/kind/pkg/kustomize"
+	config "github.com/mitar/kind/pkg/cluster/config"
+	kustomize "github.com/mitar/kind/pkg/kustomize"
 )
 
 func init() {

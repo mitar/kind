@@ -25,13 +25,13 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/cmd/kind/build"
-	"sigs.k8s.io/kind/cmd/kind/create"
-	"sigs.k8s.io/kind/cmd/kind/delete"
-	"sigs.k8s.io/kind/cmd/kind/export"
-	"sigs.k8s.io/kind/cmd/kind/get"
-	"sigs.k8s.io/kind/cmd/kind/version"
-	logutil "sigs.k8s.io/kind/pkg/log"
+	"github.com/mitar/kind/cmd/kind/build"
+	"github.com/mitar/kind/cmd/kind/create"
+	"github.com/mitar/kind/cmd/kind/delete"
+	"github.com/mitar/kind/cmd/kind/export"
+	"github.com/mitar/kind/cmd/kind/get"
+	"github.com/mitar/kind/cmd/kind/version"
+	logutil "github.com/mitar/kind/pkg/log"
 )
 
 const defaultLevel = logrus.WarnLevel

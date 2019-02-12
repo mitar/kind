@@ -19,7 +19,7 @@ package v1alpha1
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"sigs.k8s.io/kind/pkg/cluster/config/defaults"
+	"github.com/mitar/kind/pkg/cluster/config/defaults"
 )
 
 func addDefaultingFuncs(scheme *runtime.Scheme) error {

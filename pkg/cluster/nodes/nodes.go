@@ -22,9 +22,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"sigs.k8s.io/kind/pkg/cluster/constants"
+	"github.com/mitar/kind/pkg/cluster/constants"
 
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/exec"
 )
 
 // Delete deletes nodes by name / ID (see Node.String())

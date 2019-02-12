@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 
 	log "github.com/sirupsen/logrus"
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/exec"
 )
 
 // BazelBuildBits implements Bits for a local Bazel build

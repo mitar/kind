@@ -17,7 +17,7 @@ limitations under the License.
 package docker
 
 import (
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/exec"
 )
 
 // Inspect return low-level information on containers

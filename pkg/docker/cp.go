@@ -17,7 +17,7 @@ limitations under the License.
 package docker
 
 import (
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/exec"
 )
 
 // CopyTo copies the file at hostPath to the container at destPath

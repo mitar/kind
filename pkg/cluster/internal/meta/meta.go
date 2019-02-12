@@ -22,7 +22,7 @@ import (
 
 	"k8s.io/client-go/util/homedir"
 
-	"sigs.k8s.io/kind/pkg/cluster/constants"
+	"github.com/mitar/kind/pkg/cluster/constants"
 )
 
 // ClusterMeta contains some cluster meta and can be used to compute some more

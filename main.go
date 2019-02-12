@@ -18,7 +18,7 @@ limitations under the License.
 package main
 
 import (
-	"sigs.k8s.io/kind/cmd/kind"
+	"github.com/mitar/kind/cmd/kind"
 )
 
 func main() {

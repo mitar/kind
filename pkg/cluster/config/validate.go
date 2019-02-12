@@ -19,7 +19,7 @@ package config
 import (
 	"github.com/pkg/errors"
 
-	"sigs.k8s.io/kind/pkg/util"
+	"github.com/mitar/kind/pkg/util"
 )
 
 // Validate returns a ConfigErrors with an entry for each problem

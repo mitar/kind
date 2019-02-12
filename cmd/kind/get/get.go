@@ -20,9 +20,9 @@ package get
 import (
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/cmd/kind/get/clusters"
-	"sigs.k8s.io/kind/cmd/kind/get/kubeconfigpath"
-	"sigs.k8s.io/kind/cmd/kind/get/nodes"
+	"github.com/mitar/kind/cmd/kind/get/clusters"
+	"github.com/mitar/kind/cmd/kind/get/kubeconfigpath"
+	"github.com/mitar/kind/cmd/kind/get/nodes"
 )
 
 // NewCommand returns a new cobra.Command for get

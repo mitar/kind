@@ -25,9 +25,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/pkg/cluster"
-	"sigs.k8s.io/kind/pkg/cluster/config/encoding"
-	"sigs.k8s.io/kind/pkg/util"
+	"github.com/mitar/kind/pkg/cluster"
+	"github.com/mitar/kind/pkg/cluster/config/encoding"
+	"github.com/mitar/kind/pkg/util"
 )
 
 type flagpole struct {

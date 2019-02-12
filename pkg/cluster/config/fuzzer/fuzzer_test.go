@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/api/apitesting/roundtrip"
-	"sigs.k8s.io/kind/pkg/cluster/config/encoding"
+	"github.com/mitar/kind/pkg/cluster/config/encoding"
 )
 
 func TestRoundTripTypes(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/exec"
 )
 
 // TODO(bentheelder): plumb through arch

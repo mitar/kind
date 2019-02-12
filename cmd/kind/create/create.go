@@ -20,7 +20,7 @@ package create
 import (
 	"github.com/spf13/cobra"
 
-	createcluster "sigs.k8s.io/kind/cmd/kind/create/cluster"
+	createcluster "github.com/mitar/kind/cmd/kind/create/cluster"
 )
 
 // NewCommand returns a new cobra.Command for cluster creation

@@ -23,8 +23,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"sigs.k8s.io/kind/pkg/cluster/internal/kubeadm"
-	"sigs.k8s.io/kind/pkg/fs"
+	"github.com/mitar/kind/pkg/cluster/internal/kubeadm"
+	"github.com/mitar/kind/pkg/fs"
 )
 
 // kubeadmJoinAction implements action for joining nodes

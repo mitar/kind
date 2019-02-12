@@ -26,13 +26,13 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/kind/pkg/cluster/config"
-	"sigs.k8s.io/kind/pkg/cluster/config/encoding"
-	"sigs.k8s.io/kind/pkg/cluster/internal/create"
-	"sigs.k8s.io/kind/pkg/cluster/internal/meta"
-	"sigs.k8s.io/kind/pkg/cluster/logs"
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	logutil "sigs.k8s.io/kind/pkg/log"
+	"github.com/mitar/kind/pkg/cluster/config"
+	"github.com/mitar/kind/pkg/cluster/config/encoding"
+	"github.com/mitar/kind/pkg/cluster/internal/create"
+	"github.com/mitar/kind/pkg/cluster/internal/meta"
+	"github.com/mitar/kind/pkg/cluster/logs"
+	"github.com/mitar/kind/pkg/cluster/nodes"
+	logutil "github.com/mitar/kind/pkg/log"
 )
 
 // Context is used to create / manipulate kubernetes-in-docker clusters

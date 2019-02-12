@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	logutil "sigs.k8s.io/kind/pkg/log"
+	"github.com/mitar/kind/pkg/cluster/nodes"
+	logutil "github.com/mitar/kind/pkg/log"
 )
 
 // Action define a set of tasks to be executed on a `kind` cluster.

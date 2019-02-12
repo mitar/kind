@@ -22,7 +22,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"sigs.k8s.io/kind/pkg/cluster"
+	"github.com/mitar/kind/pkg/cluster"
 )
 
 // NewCommand returns a new cobra.Command for getting the list of clusters

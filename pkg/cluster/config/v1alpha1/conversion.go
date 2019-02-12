@@ -21,8 +21,8 @@ import (
 
 	"github.com/pkg/errors"
 	conversion "k8s.io/apimachinery/pkg/conversion"
-	"sigs.k8s.io/kind/pkg/cluster/config"
-	kustomize "sigs.k8s.io/kind/pkg/kustomize"
+	"github.com/mitar/kind/pkg/cluster/config"
+	kustomize "github.com/mitar/kind/pkg/kustomize"
 )
 
 func Convert_v1alpha1_Config_To_config_Config(in *Config, out *config.Config, s conversion.Scope) error {

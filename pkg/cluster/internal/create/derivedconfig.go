@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sort"
 
-	"sigs.k8s.io/kind/pkg/cluster/config"
-	"sigs.k8s.io/kind/pkg/util"
+	"github.com/mitar/kind/pkg/cluster/config"
+	"github.com/mitar/kind/pkg/util"
 
 	"github.com/pkg/errors"
 )

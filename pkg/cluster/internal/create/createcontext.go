@@ -25,11 +25,11 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/kind/pkg/cluster/config"
-	"sigs.k8s.io/kind/pkg/cluster/internal/meta"
-	"sigs.k8s.io/kind/pkg/cluster/nodes"
-	"sigs.k8s.io/kind/pkg/docker"
-	logutil "sigs.k8s.io/kind/pkg/log"
+	"github.com/mitar/kind/pkg/cluster/config"
+	"github.com/mitar/kind/pkg/cluster/internal/meta"
+	"github.com/mitar/kind/pkg/cluster/nodes"
+	"github.com/mitar/kind/pkg/docker"
+	logutil "github.com/mitar/kind/pkg/log"
 )
 
 // Context is a superset of cluster.Context implementing helpers internal to Context.Create()

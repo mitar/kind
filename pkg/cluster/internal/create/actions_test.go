@@ -22,7 +22,7 @@ import (
 	"sort"
 	"testing"
 
-	"sigs.k8s.io/kind/pkg/cluster/config"
+	"github.com/mitar/kind/pkg/cluster/config"
 )
 
 func TestExecutionPlanSorting(t *testing.T) {

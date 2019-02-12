@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	utilpointer "k8s.io/utils/pointer"
-	"sigs.k8s.io/kind/pkg/cluster/config"
+	"github.com/mitar/kind/pkg/cluster/config"
 )
 
 func TestDeriveInfo(t *testing.T) {

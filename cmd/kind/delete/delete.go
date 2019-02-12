@@ -20,7 +20,7 @@ package delete
 import (
 	"github.com/spf13/cobra"
 
-	deletecluster "sigs.k8s.io/kind/cmd/kind/delete/cluster"
+	deletecluster "github.com/mitar/kind/cmd/kind/delete/cluster"
 )
 
 // NewCommand returns a new cobra.Command for cluster creation

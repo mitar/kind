@@ -22,11 +22,11 @@ import (
 	"os"
 
 	"github.com/pkg/errors"
-	"sigs.k8s.io/kind/pkg/cluster/config"
-	"sigs.k8s.io/kind/pkg/cluster/constants"
-	"sigs.k8s.io/kind/pkg/cluster/internal/haproxy"
-	"sigs.k8s.io/kind/pkg/cluster/internal/kubeadm"
-	"sigs.k8s.io/kind/pkg/docker"
+	"github.com/mitar/kind/pkg/cluster/config"
+	"github.com/mitar/kind/pkg/cluster/constants"
+	"github.com/mitar/kind/pkg/cluster/internal/haproxy"
+	"github.com/mitar/kind/pkg/cluster/internal/kubeadm"
+	"github.com/mitar/kind/pkg/docker"
 )
 
 // FromID creates a node handle from the node (container's) ID

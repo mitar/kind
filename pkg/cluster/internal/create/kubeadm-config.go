@@ -24,10 +24,10 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/kind/pkg/cluster/config"
-	"sigs.k8s.io/kind/pkg/cluster/internal/haproxy"
-	"sigs.k8s.io/kind/pkg/cluster/internal/kubeadm"
-	"sigs.k8s.io/kind/pkg/kustomize"
+	"github.com/mitar/kind/pkg/cluster/config"
+	"github.com/mitar/kind/pkg/cluster/internal/haproxy"
+	"github.com/mitar/kind/pkg/cluster/internal/kubeadm"
+	"github.com/mitar/kind/pkg/kustomize"
 )
 
 // kubeadmConfigAction implements action for creating the kubadm config

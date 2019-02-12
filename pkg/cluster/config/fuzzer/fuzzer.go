@@ -21,7 +21,7 @@ import (
 
 	runtimeserializer "k8s.io/apimachinery/pkg/runtime/serializer"
 
-	"sigs.k8s.io/kind/pkg/cluster/config"
+	"github.com/mitar/kind/pkg/cluster/config"
 )
 
 // Funcs returns custom fuzzer functions for the `kind` Config.

@@ -24,8 +24,8 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/kind/pkg/cluster/internal/haproxy"
-	"sigs.k8s.io/kind/pkg/cluster/internal/kubeadm"
+	"github.com/mitar/kind/pkg/cluster/internal/haproxy"
+	"github.com/mitar/kind/pkg/cluster/internal/kubeadm"
 )
 
 // HAProxyAction implements action for configuring and starting the

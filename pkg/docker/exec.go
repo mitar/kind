@@ -19,7 +19,7 @@ package docker
 import (
 	"io"
 
-	"sigs.k8s.io/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/exec"
 )
 
 // containerCmder implements exec.Cmder for docker containers

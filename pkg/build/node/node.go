@@ -32,10 +32,10 @@ import (
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"sigs.k8s.io/kind/pkg/build/kube"
-	"sigs.k8s.io/kind/pkg/docker"
-	"sigs.k8s.io/kind/pkg/exec"
-	"sigs.k8s.io/kind/pkg/fs"
+	"github.com/mitar/kind/pkg/build/kube"
+	"github.com/mitar/kind/pkg/docker"
+	"github.com/mitar/kind/pkg/exec"
+	"github.com/mitar/kind/pkg/fs"
 )
 
 // DefaultImage is the default name:tag for the built image

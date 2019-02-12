@@ -22,7 +22,7 @@ import (
 	"io"
 	"os"
 
-	"sigs.k8s.io/kind/pkg/log/fidget"
+	"github.com/mitar/kind/pkg/log/fidget"
 
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/ssh/terminal"
