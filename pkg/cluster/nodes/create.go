@@ -129,6 +129,9 @@ func createNode(name, image, clusterLabel string, role config.NodeRole, extraArg
 		"--label", fmt.Sprintf("%s=%s", constants.ClusterRoleKey, role),
 		// explicitly set the entrypoint
 		"--entrypoint=/usr/local/bin/entrypoint",
+		// mount D3M data and CI directories
+		"-v", "/tmp/ci:/tmp/ci",
+		"-v", "/data:/data:ro",
 	}
 
 	// pass proxy environment variables to be used by node's docker deamon
